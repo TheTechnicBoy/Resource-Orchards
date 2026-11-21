@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:block/block",
+    "render_type": "minecraft:cutout",
+    "textures": {
+        "particle": "minecraft:block/oak_log",
+        "base_side": "minecraft:block/oak_log",
+        "base_end": "minecraft:block/oak_log_top",
+        "overlay": "resourceorchards:block/log_overlay"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#base_end",  "cullface": "down" },
+                "up":    { "texture": "#base_end",  "cullface": "up" },
+                "north": { "texture": "#base_side", "cullface": "north" },
+                "east":  { "texture": "#base_side", "cullface": "east" },
+                "south": { "texture": "#base_side", "cullface": "south" },
+                "west":  { "texture": "#base_side", "cullface": "west" }
+            }
+        },
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#overlay",  "cullface": "down",  "tintindex": 0 },
+                "up":    { "texture": "#overlay",  "cullface": "up",    "tintindex": 0 },
+                "north": { "texture": "#overlay", "cullface": "north", "tintindex": 0 },
+                "east":  { "texture": "#overlay", "cullface": "east",  "tintindex": 0 },
+                "south": { "texture": "#overlay", "cullface": "south", "tintindex": 0 },
+                "west":  { "texture": "#overlay", "cullface": "west",  "tintindex": 0 }
+            }
+        }
+    ]
+}

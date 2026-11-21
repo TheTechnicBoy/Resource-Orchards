@@ -1,0 +1,9 @@
+{
+  "itemGroup.resourceorchards.main": "Resource Orchards",
+  "jei.resourceorchards.trees": "Tree Drops",
+  "jei.resourceorchards.chance": "Chance: %s",
+  "jei.resourceorchards.amount": "Amount: %s",
+  "jei.resourceorchards.source": "Source: %s",
+  "jei.resourceorchards.source.log": "Log",
+  "jei.resourceorchards.source.leaves": "Leaves"
+}
