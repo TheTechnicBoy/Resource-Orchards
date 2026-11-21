@@ -48,16 +48,16 @@ All drop methods are optional. If you leave one out, the default is used.
  
 | Method | Drops from | Default (min / max / chance) |
 |---|---|---|
-| `log(min, max, chance)` | Trunk | 1 / 1 / 100 % |
-| `resin(min, max, chance)` | Trunk | 1 / 3 / 80 % |
+| `log(min, max, chance)` | Log | 1 / 1 / 100 % |
+| `resin(min, max, chance)` | Log | 1 / 3 / 80 % |
 | `acorn(min, max, chance)` | Leaves | 1 / 3 / 80 % |
 | `sapling(min, max, chance)` | Leaves | 1 / 1 / 5 % |
-| `extraLogDrop(itemId, min, max, chance)` | Trunk | - |
+| `extraLogDrop(itemId, min, max, chance)` | Log | - |
 | `extraLeavesDrop(itemId, min, max, chance)` | Leaves | - |
  
 Setting a chance or max of `0` removes that drop.
  
-**Note:** In a Botany Pot, all drops of a tree come from a single loot table, so trunk and leaves are not separated there.
+**Note:** In a Botany Pot, all drops of a tree come from a single loot table, so log and leaves are not separated there.
  
 ## License
  
