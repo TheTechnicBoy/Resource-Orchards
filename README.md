@@ -26,9 +26,9 @@ This is a port / fork of [Sky Orchards](https://www.curseforge.com/minecraft/mc-
 ## Requirements
  
 * Minecraft 1.21.1 & NeoForge
-* [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) (used to define the trees)
-* [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots) (optional, for growing the trees in pots)
-* [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) (optional, for the drop overview)
+* [KubeJS](https://modrinth.com/mod/kubejs) (used to define the trees)
+* [Botany Pots](https://modrinth.com/mod/botany-pots) (optional, for growing the trees in pots)
+* [JEI](https://modrinth.com/mod/jei) (optional, for the drop overview)
 ## Usage
  
 Trees are registered in a KubeJS **startup script**, for example `kubejs/startup_scripts/trees.js`:
